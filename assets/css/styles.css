@@ -826,6 +826,7 @@ img {
 .project__bg {
     background-color: var(--first-color-second);
     padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .project__title {
