@@ -668,8 +668,8 @@
                                 institute's educational vision and connect with ease.
                                 prowess.
                             </p>
-                            <a href="https://harshitbhalani.github.io/Dream_Institute_Website.github.io/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
+                            <a href="https://harshitbhalani.github.io/Dream_Institute_Website.github.io/"
+                                target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -697,8 +697,7 @@
                     </div>
                     <!--==================== PORTFOLIO 4 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Harshit_portfolio.png" alt="" class="portfolio__img"
-                            >
+                        <img src="assets/img/Harshit_portfolio.png" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">My First Personal Portfolio</h3>
@@ -719,8 +718,7 @@
                     </div>
                     <!--==================== PORTFOLIO 5 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/HARSHIT_PROFILE.png" alt="" class="portfolio__img"
-                            >
+                        <img src="assets/img/HARSHIT_PROFILE.png" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">My Digital Profile</h3>
@@ -740,8 +738,7 @@
                     </div>
                     <!--==================== PORTFOLIO 6 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/GRADIENT COLOR CODE GENERATOR.png" alt="" class="portfolio__img"
-                            >
+                        <img src="assets/img/GRADIENT COLOR CODE GENERATOR.png" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Gredient Color Code Generator</h3>
@@ -1048,7 +1045,7 @@
                     </a> -->
                 </div>
 
-                <p class="footer__copy">Copyright © 2023, All Right Reserved <br>Created By Harshit Bhalani </p>
+                <!-- <p class="footer__copy">Copyright © 2023, All Right Reserved <br>Created By Harshit Bhalani </p> -->
             </div>
         </div>
         <script>
@@ -1057,6 +1054,15 @@
             };
         </script>
     </footer>
+    <!--==================== FOOTER ====================-->
+
+
+    <!--==================== FOOTER 1====================-->
+    <footer class="footer">
+        <p class="footer__copy">Copyright © 2023, All Right Reserved <br>Created By Harshit Bhalani </p>
+    </footer>
+    <!--==================== FOOTER 1 ====================-->
+
 
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
@@ -1069,6 +1075,26 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
+
+    <!--==================== JQUERY SRC ====================-->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <!--==================== img Tilt JS ====================-->
+    <script src="assets/js/tilt.jquery.js"></script>
+
+
+    <!--==================== script of img Tilt ====================-->
+    <script>
+        $(document).ready(function () {
+            $('.portfolio__img').tilt({
+                maxTilt: 10,
+                scale: 1,
+                speed: 100,
+            });
+        });
+    </script>
 </body>
 
 </html>
