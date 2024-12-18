@@ -532,6 +532,11 @@ img {
     width: 75%;
 }
 
+.skills__rjs {
+    width: 15%;
+}
+
+
 .skills__Bootstrap {
     width: 85%;
 }
@@ -553,7 +558,7 @@ img {
 } */
 
 .skills__mysql {
-    width: 55%;
+    width: 50%;
 }
 
 .skills__figma {
@@ -985,7 +990,7 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: white;
+    color:white;
     margin-top: var(--mb-3);
 }
 
@@ -1200,7 +1205,7 @@ img {
     }
 
     .home__content {
-        padding-top: 5.5rem;
+        padding-top: 4.5rem;
         column-gap: 2rem;
     }
 
