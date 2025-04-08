@@ -533,7 +533,7 @@ img {
 }
 
 .skills__rjs {
-  width: 15%;
+  width: 45%;
 }
 
 .skills__Bootstrap {
@@ -544,20 +544,45 @@ img {
   width: 75%;
 }
 
+.skills__wrdpress {
+  width: 75%;
+}
+
 .skills__php {
   width: 70%;
 }
 
+.skills__postman {
+  width: 100%;
+}
+
+.skills__Git {
+  width: 100%;
+}
+
+
 .skills__node {
-  width: 15%;
+  width: 35%;
+}
+
+.skills__restapi {
+  width: 35%;
+}
+
+.skills__python {
+  width: 35%;
+}
+
+.skills__flask {
+  width: 35%;
 }
 
 .skills__express {
-  width: 15%;
+  width: 45%;
 }
 
 .skills__mongo {
-  width: 15%;
+  width:45%;
 }
 /* .skills__node {
     width: 70%;
@@ -575,9 +600,9 @@ img {
   width: 70%;
 }
 
-/* .skills__sketch {
+.skills__sketch {
     width: 85%;
-} */
+}
 
 .skills__photoshop {
   width: 75%;
